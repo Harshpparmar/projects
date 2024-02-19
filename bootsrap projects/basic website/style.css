@@ -1,0 +1,12 @@
+@import 'node_modules/bootstrap-icons/font/bootstrap-icons.scss';
+
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
